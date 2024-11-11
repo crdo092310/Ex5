@@ -1,0 +1,101 @@
+body {
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0fbfc;
+    border: 2px solid #98c1d9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 8px;
+    border: 1px solid #98c1d9;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3d5a80;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #293241;
+}
+
+.form-responses-container {
+    margin: 20px auto;
+    width: 300px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border: 2px solid #98c1d9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.response-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffcad4;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.response-item:hover {
+    background-color: #c4ebf2;
+}
+
+.edit-btn {
+    background-color: #5cb85c;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #4cae4c;
+}
+
+.delete-btn:hover {
+    background-color: #c9302c;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px; 
+    color: #3d5a80; 
+    font-weight: bold; 
+}
+
+footer span {
+    color: #e63946;
+    font-size: 28px; 
+}
